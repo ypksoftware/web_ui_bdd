@@ -1,0 +1,308 @@
+{"logLevel":"debug","message":"multithreading is set to true"}
+{"logLevel":"debug","message":"multithreading enabled, number of threads=12"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+{"logLevel":"debug","message":"gauge-java took 1175milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1175"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 62019"}
+{"logLevel":"info","message":"Listening on port:62019"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.CardPageSteps.simulateGlobe' and 'com.web.base.pagesteps.CardPageSteps.simulateGlobe'"}
+{"logLevel":"debug","message":"Found Simulate Globe Payment with phone number {} and pin code {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.LoginPageSteps.clickConfirm' and 'com.web.base.pagesteps.LoginPageSteps.clickConfirm'"}
+{"logLevel":"debug","message":"Found Confirm the start date of new package {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.LoginPageSteps.fillSkyForm' and 'com.web.base.pagesteps.LoginPageSteps.fillSkyForm'"}
+{"logLevel":"debug","message":"Found Fill Sky form with {} {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.AccountPageSteps.checkEmailTemplate' and 'com.web.base.pagesteps.AccountPageSteps.checkEmailTemplate'"}
+{"logLevel":"debug","message":"Found Check e-mail {} template in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.MailboxPageSteps.createNewCase' and 'com.web.base.pagesteps.MailboxPageSteps.createNewCase'"}
+{"logLevel":"debug","message":"Found Click create a new case in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.LoginPageSteps.updatePaymentDetails' and 'com.web.base.pagesteps.LoginPageSteps.updatePaymentDetails'"}
+{"logLevel":"debug","message":"Found Update payment details with {} {} {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.CardPageSteps.expectMessageAtCardBasketPage' and 'com.web.base.pagesteps.CardPageSteps.expectMessageAtCardBasketPage'"}
+{"logLevel":"debug","message":"Found Expect for {} at card basket page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.LoginPageSteps.revoke' and 'com.web.base.pagesteps.LoginPageSteps.revoke'"}
+{"logLevel":"debug","message":"Found Revoke cancellation request in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.LoginPageSteps.checkNoAvailablePackages' and 'com.web.base.pagesteps.LoginPageSteps.checkNoAvailablePackages'"}
+{"logLevel":"debug","message":"Found Check no available subscription packages {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.WatchPageSteps.goProfile' and 'com.web.base.pagesteps.WatchPageSteps.goProfile'"}
+{"logLevel":"debug","message":"Found Go to profile in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.AccountPageSteps.typeSmsVerificationCodeForResend' and 'com.web.base.pagesteps.AccountPageSteps.typeSmsVerificationCodeForResend'"}
+{"logLevel":"debug","message":"Found Type sms verification code for resend verification and expect for {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.AccountPageSteps.resendVerificationPhone' and 'com.web.base.pagesteps.AccountPageSteps.resendVerificationPhone'"}
+{"logLevel":"debug","message":"Found Resend Verification of previously created phone in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.LoginPageSteps.loginWithCreatedCancelledUser' and 'com.web.base.pagesteps.LoginPageSteps.loginWithCreatedCancelledUser'"}
+{"logLevel":"debug","message":"Found Login with previously created user having cancelled {} package in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.BaseSteps.createAccountWithEmail' and 'com.web.base.pagesteps.BaseSteps.createAccountWithEmail'"}
+{"logLevel":"debug","message":"Found deneme senaryosu in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.AccountPageSteps.resetPasswordEmail' and 'com.web.base.pagesteps.AccountPageSteps.resetPasswordEmail'"}
+{"logLevel":"debug","message":"Found Reset Password of previously created email in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.CardPageSteps.fillCodapayDataForPhilippinesAtmAndContinue' and 'com.web.base.pagesteps.CardPageSteps.fillCodapayDataForPhilippinesAtmAndContinue'"}
+{"logLevel":"debug","message":"Found Fill codapay data for Philippines {} and continue in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.CardPageSteps.simulateIndomaret' and 'com.web.base.pagesteps.CardPageSteps.simulateIndomaret'"}
+{"logLevel":"debug","message":"Found Simulate Indomaret payment in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.AccountPageSteps.changePassword' and 'com.web.base.pagesteps.AccountPageSteps.changePassword'"}
+{"logLevel":"debug","message":"Found Change old password with {} and expect for {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.CardPageSteps.simulateMaxis' and 'com.web.base.pagesteps.CardPageSteps.simulateMaxis'"}
+{"logLevel":"debug","message":"Found Simulate Maxis payment {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.AccountPageSteps.createAccountWithPhone' and 'com.web.base.pagesteps.AccountPageSteps.createAccountWithPhone'"}
+{"logLevel":"debug","message":"Found Create account with random phone and {} {} {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.MailboxPageSteps.sendNewTextAndCheckCharactersRule' and 'com.web.base.pagesteps.MailboxPageSteps.sendNewTextAndCheckCharactersRule'"}
+{"logLevel":"debug","message":"Found First check characters rule and send new text {} {}  in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.AccountPageSteps.setNewPassword' and 'com.web.base.pagesteps.AccountPageSteps.setNewPassword'"}
+{"logLevel":"debug","message":"Found Change forgotten password with {} and expect for {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.LoginPageSteps.fillFoxtelForm' and 'com.web.base.pagesteps.LoginPageSteps.fillFoxtelForm'"}
+{"logLevel":"debug","message":"Found Fill Foxtel form with {} {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.CardPageSteps.validateTrueMoney' and 'com.web.base.pagesteps.CardPageSteps.validateTrueMoney'"}
+{"logLevel":"debug","message":"Found Validate existence of true money submit button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.VoucherPageSteps.useRandomVoucherCode' and 'com.web.base.pagesteps.VoucherPageSteps.useRandomVoucherCode'"}
+{"logLevel":"debug","message":"Found Use random voucher code from DB for country {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.CardPageSteps.openAtmSimultor' and 'com.web.base.pagesteps.CardPageSteps.openAtmSimultor'"}
+{"logLevel":"debug","message":"Found Open atm simulator in new tab in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.CardPageSteps.fillCreditCardDataAndConfirmPayment' and 'com.web.base.pagesteps.CardPageSteps.fillCreditCardDataAndConfirmPayment'"}
+{"logLevel":"debug","message":"Found Fill credit card data with {} {} {} and confirm payment in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.LoginPageSteps.checkSuccessfulText' and 'com.web.base.pagesteps.LoginPageSteps.checkSuccessfulText'"}
+{"logLevel":"debug","message":"Found Check alias update success message with text {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.LoginPageSteps.clickPartnerLogin' and 'com.web.base.pagesteps.LoginPageSteps.clickPartnerLogin'"}
+{"logLevel":"debug","message":"Found Click {} login in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.WatchPageSteps.goSubscription' and 'com.web.base.pagesteps.WatchPageSteps.goSubscription'"}
+{"logLevel":"debug","message":"Found Go to subscription in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.AccountPageSteps.createAccountWithEmail' and 'com.web.base.pagesteps.AccountPageSteps.createAccountWithEmail'"}
+{"logLevel":"debug","message":"Found Create account with random email and {} {} {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.WatchPageSteps.goMailbox' and 'com.web.base.pagesteps.WatchPageSteps.goMailbox'"}
+{"logLevel":"debug","message":"Found Go to Mailbox in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.LoginPageSteps.fillFirstMediaForm' and 'com.web.base.pagesteps.LoginPageSteps.fillFirstMediaForm'"}
+{"logLevel":"debug","message":"Found Fill FirstMedia form with {} {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.AccountPageSteps.openEmailResetLink' and 'com.web.base.pagesteps.AccountPageSteps.openEmailResetLink'"}
+{"logLevel":"debug","message":"Found Open email password reset link in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.MailboxPageSteps.fillContactUsAndSend' and 'com.web.base.pagesteps.MailboxPageSteps.fillContactUsAndSend'"}
+{"logLevel":"debug","message":"Found Fill the contact us and send {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.CardPageSteps.fillAtmSimulationWithData' and 'com.web.base.pagesteps.CardPageSteps.fillAtmSimulationWithData'"}
+{"logLevel":"debug","message":"Found Fill atm simulation with data and submit in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.CardPageSteps.fillCreditCardDataAndConfirmPayment' and 'com.web.base.pagesteps.CardPageSteps.fillCreditCardDataAndConfirmPayment'"}
+{"logLevel":"debug","message":"Found Fill Truemoney CC data with {} {} {} {} and confirm payment in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.LoginPageSteps.fillFacebookForm' and 'com.web.base.pagesteps.LoginPageSteps.fillFacebookForm'"}
+{"logLevel":"debug","message":"Found Fill Facebook form with {} {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.LoginPageSteps.fillNexmediaForm' and 'com.web.base.pagesteps.LoginPageSteps.fillNexmediaForm'"}
+{"logLevel":"debug","message":"Found Fill Nexmedia form with {} {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.WatchPageSteps.watchLiveChannel' and 'com.web.base.pagesteps.WatchPageSteps.watchLiveChannel'"}
+{"logLevel":"debug","message":"Found Click watch live and watch channel for {} seconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.CardPageSteps.fillCodapayDataForIndonesiaAndContinue' and 'com.web.base.pagesteps.CardPageSteps.fillCodapayDataForIndonesiaAndContinue'"}
+{"logLevel":"debug","message":"Found Fill codapay data for Indonesia and continue in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.CardPageSteps.simulateTelkomsel' and 'com.web.base.pagesteps.CardPageSteps.simulateTelkomsel'"}
+{"logLevel":"debug","message":"Found Simulate Telkomsel payment with phone number {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.MailboxPageSteps.checkSuccessMessage' and 'com.web.base.pagesteps.MailboxPageSteps.checkSuccessMessage'"}
+{"logLevel":"debug","message":"Found Check success message with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.WatchPageSteps.voucherAndSubscribeButtonCheck' and 'com.web.base.pagesteps.WatchPageSteps.voucherAndSubscribeButtonCheck'"}
+{"logLevel":"debug","message":"Found Voucher code and subscription should not exist in user menu in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.LoginPageSteps.logout' and 'com.web.base.pagesteps.LoginPageSteps.logout'"}
+{"logLevel":"debug","message":"Found Logout in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.AccountPageSteps.openEmailVerificationLink' and 'com.web.base.pagesteps.AccountPageSteps.openEmailVerificationLink'"}
+{"logLevel":"debug","message":"Found Open email verification link and expect for {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.LoginPageSteps.loginWithResettedPassword' and 'com.web.base.pagesteps.LoginPageSteps.loginWithResettedPassword'"}
+{"logLevel":"debug","message":"Found Login with resetted password in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.AccountPageSteps.clickChangePassword' and 'com.web.base.pagesteps.AccountPageSteps.clickChangePassword'"}
+{"logLevel":"debug","message":"Found Click change password in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.CardPageSteps.fillCodapayDataForMAlaysiaAndContinue' and 'com.web.base.pagesteps.CardPageSteps.fillCodapayDataForMAlaysiaAndContinue'"}
+{"logLevel":"debug","message":"Found Fill codapay data {} for Malaysia Maxis and continue in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.MailboxPageSteps.checkStatusAndSupportType' and 'com.web.base.pagesteps.MailboxPageSteps.checkStatusAndSupportType'"}
+{"logLevel":"debug","message":"Found Check status and support type in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.AccountPageSteps.resendVerificationEmail' and 'com.web.base.pagesteps.AccountPageSteps.resendVerificationEmail'"}
+{"logLevel":"debug","message":"Found Resend Verification of previously created email in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.CardPageSteps.acceptTermsAndConditions' and 'com.web.base.pagesteps.CardPageSteps.acceptTermsAndConditions'"}
+{"logLevel":"debug","message":"Found Accept terms and conditions then click pay now in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.VoucherPageSteps.expectErrorText' and 'com.web.base.pagesteps.VoucherPageSteps.expectErrorText'"}
+{"logLevel":"debug","message":"Found Expect error text {} in voucher page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.MailboxPageSteps.contactUs' and 'com.web.base.pagesteps.MailboxPageSteps.contactUs'"}
+{"logLevel":"debug","message":"Found Click Contact Us on Footer in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.WatchPageSteps.doNotWatchChannel' and 'com.web.base.pagesteps.WatchPageSteps.doNotWatchChannel'"}
+{"logLevel":"debug","message":"Found Click watch live and expect for {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.CardPageSteps.simulateIndosat' and 'com.web.base.pagesteps.CardPageSteps.simulateIndosat'"}
+{"logLevel":"debug","message":"Found Simulate Indosat payment with phone number {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.MailboxPageSteps.newCaseForPartnerUser' and 'com.web.base.pagesteps.MailboxPageSteps.newCaseForPartnerUser'"}
+{"logLevel":"debug","message":"Found Send the created new case {} {} {} {}  in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.VoucherPageSteps.redeemVoucher' and 'com.web.base.pagesteps.VoucherPageSteps.redeemVoucher'"}
+{"logLevel":"debug","message":"Found Redeem Voucher in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.LoginPageSteps.clickLogin' and 'com.web.base.pagesteps.LoginPageSteps.clickLogin'"}
+{"logLevel":"debug","message":"Found Subscribe to {} and {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.LoginPageSteps.loginWithCreatedUser' and 'com.web.base.pagesteps.LoginPageSteps.loginWithCreatedUser'"}
+{"logLevel":"debug","message":"Found Login with previously created user subscribed with {} package in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.WatchPageSteps.watchChannel' and 'com.web.base.pagesteps.WatchPageSteps.watchChannel'"}
+{"logLevel":"debug","message":"Found Click watch now and watch channel for {} seconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.CardPageSteps.verifyEmail' and 'com.web.base.pagesteps.CardPageSteps.verifyEmail'"}
+{"logLevel":"debug","message":"Found Verify e-mail in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.LoginPageSteps.loginWithNonChangedPassword' and 'com.web.base.pagesteps.LoginPageSteps.loginWithNonChangedPassword'"}
+{"logLevel":"debug","message":"Found Login with previously created user having non changed password in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.LoginPageSteps.clickForgotPassword' and 'com.web.base.pagesteps.LoginPageSteps.clickForgotPassword'"}
+{"logLevel":"debug","message":"Found Click forgot password in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.AccountPageSteps.checkVerifyAndLogin' and 'com.web.base.pagesteps.AccountPageSteps.checkVerifyAndLogin'"}
+{"logLevel":"debug","message":"Found Check verify message with {} and click login in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.CardPageSteps.simulateDragon' and 'com.web.base.pagesteps.CardPageSteps.simulateDragon'"}
+{"logLevel":"debug","message":"Found Simulate Dragon Payment (Philippines) with channel {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.VoucherPageSteps.validateRedeemedMEssage' and 'com.web.base.pagesteps.VoucherPageSteps.validateRedeemedMEssage'"}
+{"logLevel":"debug","message":"Found Validate voucher redeemed message in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.LoginPageSteps.viewReceipt' and 'com.web.base.pagesteps.LoginPageSteps.viewReceipt'"}
+{"logLevel":"debug","message":"Found View receipt in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.AccountPageSteps.resetPasswordPhone' and 'com.web.base.pagesteps.AccountPageSteps.resetPasswordPhone'"}
+{"logLevel":"debug","message":"Found Reset Password of previously created phone number in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.CardPageSteps.selectPaymentMethod' and 'com.web.base.pagesteps.CardPageSteps.selectPaymentMethod'"}
+{"logLevel":"debug","message":"Found Select payment method {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.VoucherPageSteps.useAlreadyUsedVoucherCode' and 'com.web.base.pagesteps.VoucherPageSteps.useAlreadyUsedVoucherCode'"}
+{"logLevel":"debug","message":"Found Use already used voucher code for country {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.AccountPageSteps.verifyMobileNumber' and 'com.web.base.pagesteps.AccountPageSteps.verifyMobileNumber'"}
+{"logLevel":"debug","message":"Found Verify mobile number in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.CardPageSteps.fillCodapayDataForThailandAndContinue' and 'com.web.base.pagesteps.CardPageSteps.fillCodapayDataForThailandAndContinue'"}
+{"logLevel":"debug","message":"Found Fill codapay data for Thailand and continue in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.CardPageSteps.simulateAlfamart' and 'com.web.base.pagesteps.CardPageSteps.simulateAlfamart'"}
+{"logLevel":"debug","message":"Found Simulate Alfamart payment in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.CardPageSteps.simulateGcash' and 'com.web.base.pagesteps.CardPageSteps.simulateGcash'"}
+{"logLevel":"debug","message":"Found Simulate Gcash Payment with phone number {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.LoginPageSteps.clickResendVerification' and 'com.web.base.pagesteps.LoginPageSteps.clickResendVerification'"}
+{"logLevel":"debug","message":"Found Click resend verification code in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.CardPageSteps.fillCodapayDataForMalaysiaDigiAndContinue' and 'com.web.base.pagesteps.CardPageSteps.fillCodapayDataForMalaysiaDigiAndContinue'"}
+{"logLevel":"debug","message":"Found Fill codapay data {} {} for Malaysia Digi and continue in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.LoginPageSteps.cancelSubscription' and 'com.web.base.pagesteps.LoginPageSteps.cancelSubscription'"}
+{"logLevel":"debug","message":"Found Cancel subscription and expect {} text in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.AppLauncher.launchTheApplication' and 'com.web.base.pagesteps.AppLauncher.launchTheApplication'"}
+{"logLevel":"debug","message":"Found Go to apac {} website in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.AccountPageSteps.typeSmsVerificationCode' and 'com.web.base.pagesteps.AccountPageSteps.typeSmsVerificationCode'"}
+{"logLevel":"debug","message":"Found Type sms verification code for forgotten password in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.LoginPageSteps.loginWithPhoneNumber' and 'com.web.base.pagesteps.LoginPageSteps.loginWithPhoneNumber'"}
+{"logLevel":"debug","message":"Found Login with generated phone number in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.LoginPageSteps.fillBukalapakForm' and 'com.web.base.pagesteps.LoginPageSteps.fillBukalapakForm'"}
+{"logLevel":"debug","message":"Found Fill Bukalapak form with {} {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.LoginPageSteps.goLogin' and 'com.web.base.pagesteps.LoginPageSteps.goLogin'"}
+{"logLevel":"debug","message":"Found Go to login page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.LoginPageSteps.upgradeToPackage' and 'com.web.base.pagesteps.LoginPageSteps.upgradeToPackage'"}
+{"logLevel":"debug","message":"Found Upgrade to {} and {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.CardPageSteps.fillDokuWalletSimulaator' and 'com.web.base.pagesteps.CardPageSteps.fillDokuWalletSimulaator'"}
+{"logLevel":"debug","message":"Found Fill Doku Wallet simulator in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.LoginPageSteps.loginWithPreviousPassword' and 'com.web.base.pagesteps.LoginPageSteps.loginWithPreviousPassword'"}
+{"logLevel":"debug","message":"Found Login with previous password and expect for {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.LoginPageSteps.clickFooterSubscribe' and 'com.web.base.pagesteps.LoginPageSteps.clickFooterSubscribe'"}
+{"logLevel":"debug","message":"Found Click footer subscribe button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.web.base.pagesteps.LoginPageSteps.loginWithUser' and 'com.web.base.pagesteps.LoginPageSteps.loginWithUser'"}
+{"logLevel":"debug","message":"Found Login with {} {} in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tUse already used voucher code for country {} : public void useAlreadyUsedVoucherCode(String countryCode)"}
+{"logLevel":"debug","message":"\tType sms verification code for resend verification and expect for {} : public void typeSmsVerificationCodeForResend(String expectedMessage)"}
+{"logLevel":"debug","message":"\tChange old password with {} and expect for {} : public void changePassword(String newPassword, String expectedMessage)"}
+{"logLevel":"debug","message":"\tGo to profile : public void goProfile()"}
+{"logLevel":"debug","message":"\tFill codapay data for Philippines {} and continue : public void fillCodapayDataForPhilippinesAtmAndContinue(String paymentAgent)"}
+{"logLevel":"debug","message":"\tLogin with {} {} : public void loginWithUser(String userName, String password)"}
+{"logLevel":"debug","message":"\tClick forgot password : public void clickForgotPassword()"}
+{"logLevel":"debug","message":"\tClick change password : public void clickChangePassword()"}
+{"logLevel":"debug","message":"\tClick create a new case : public void createNewCase()"}
+{"logLevel":"debug","message":"\tValidate voucher redeemed message : public void validateRedeemedMEssage()"}
+{"logLevel":"debug","message":"\tUpdate payment details with {} {} {} : public void updatePaymentDetails(String cardNumber, String expiryDate, String cvc)"}
+{"logLevel":"debug","message":"\tClick watch live and watch channel for {} seconds : public void watchLiveChannel(int seconds)"}
+{"logLevel":"debug","message":"\tLogin with resetted password : public void loginWithResettedPassword()"}
+{"logLevel":"debug","message":"\tFill Foxtel form with {} {} : public void fillFoxtelForm(String userName, String password)"}
+{"logLevel":"debug","message":"\tCheck verify message with {} and click login : public void checkVerifyAndLogin(String expectedMessage)"}
+{"logLevel":"debug","message":"\tExpect error text {} in voucher page : public void expectErrorText(String errorText)"}
+{"logLevel":"debug","message":"\tVerify e-mail : public void verifyEmail()"}
+{"logLevel":"debug","message":"\tSimulate Maxis payment {} : public void simulateMaxis(String phoneNumber)"}
+{"logLevel":"debug","message":"\tCreate account with random phone and {} {} {} : public void createAccountWithPhone(String firstName, String lastName, String password)"}
+{"logLevel":"debug","message":"\tFill Nexmedia form with {} {} : public void fillNexmediaForm(String accountNumber, String phoneNumber)"}
+{"logLevel":"debug","message":"\tSelect payment method {} : public void selectPaymentMethod(String paymentMethod)"}
+{"logLevel":"debug","message":"\tOpen email password reset link : public void openEmailResetLink()"}
+{"logLevel":"debug","message":"\tSimulate Alfamart payment : public void simulateAlfamart()"}
+{"logLevel":"debug","message":"\tReset Password of previously created email : public void resetPasswordEmail()"}
+{"logLevel":"debug","message":"\tFill atm simulation with data and submit : public void fillAtmSimulationWithData()"}
+{"logLevel":"debug","message":"\tSubscribe to {} and {} : public void clickLogin(String _package, String offer)"}
+{"logLevel":"debug","message":"\tCheck e-mail {} template : public void checkEmailTemplate(String templateCode)"}
+{"logLevel":"debug","message":"\tFill Doku Wallet simulator : public void fillDokuWalletSimulaator()"}
+{"logLevel":"debug","message":"\tUpgrade to {} and {} : public void upgradeToPackage(String _package, String offer)"}
+{"logLevel":"debug","message":"\tFill Facebook form with {} {} : public void fillFacebookForm(String email, String password)"}
+{"logLevel":"debug","message":"\tResend Verification of previously created phone : public void resendVerificationPhone()"}
+{"logLevel":"debug","message":"\tFill Bukalapak form with {} {} : public void fillBukalapakForm(String userName, String password)"}
+{"logLevel":"debug","message":"\tGo to subscription : public void goSubscription()"}
+{"logLevel":"debug","message":"\tReset Password of previously created phone number : public void resetPasswordPhone()"}
+{"logLevel":"debug","message":"\tSimulate Indosat payment with phone number {} : public void simulateIndosat(String phoneNumber)"}
+{"logLevel":"debug","message":"\tLogin with previously created user having cancelled {} package : public void loginWithCreatedCancelledUser(String offerType)"}
+{"logLevel":"debug","message":"\tView receipt : public void viewReceipt()"}
+{"logLevel":"debug","message":"\tFill codapay data for Thailand and continue : public void fillCodapayDataForThailandAndContinue()"}
+{"logLevel":"debug","message":"\tUse random voucher code from DB for country {} : public void useRandomVoucherCode(String countryCode)"}
+{"logLevel":"debug","message":"\tCreate account with random email and {} {} {} : public void createAccountWithEmail(String firstName, String lastName, String password)"}
+{"logLevel":"debug","message":"\tRevoke cancellation request : public void revoke()"}
+{"logLevel":"debug","message":"\tFill codapay data {} {} for Malaysia Digi and continue : public void fillCodapayDataForMalaysiaDigiAndContinue(String phoneNumber, String pin)"}
+{"logLevel":"debug","message":"\tValidate existence of true money submit button : public void validateTrueMoney()"}
+{"logLevel":"debug","message":"\tResend Verification of previously created email : public void resendVerificationEmail()"}
+{"logLevel":"debug","message":"\tChange forgotten password with {} and expect for {} : public void setNewPassword(String newPassword, String expectedMessage)"}
+{"logLevel":"debug","message":"\tGo to login page : public void goLogin()"}
+{"logLevel":"debug","message":"\tFill FirstMedia form with {} {} : public void fillFirstMediaForm(String userName, String password)"}
+{"logLevel":"debug","message":"\tSimulate Dragon Payment (Philippines) with channel {} : public void simulateDragon(String channel)"}
+{"logLevel":"debug","message":"\tFill codapay data {} for Malaysia Maxis and continue : public void fillCodapayDataForMAlaysiaAndContinue(String phoneNumber)"}
+{"logLevel":"debug","message":"\tSimulate Gcash Payment with phone number {} : public void simulateGcash(String phoneNumber)"}
+{"logLevel":"debug","message":"\tLogin with previously created user having non changed password : public void loginWithNonChangedPassword()"}
+{"logLevel":"debug","message":"\tExpect for {} at card basket page : public void expectMessageAtCardBasketPage(String expectedMessage)"}
+{"logLevel":"debug","message":"\tSimulate Telkomsel payment with phone number {} : public void simulateTelkomsel(String phoneNumber)"}
+{"logLevel":"debug","message":"\tOpen atm simulator in new tab : public void openAtmSimultor()"}
+{"logLevel":"debug","message":"\tFill codapay data for Indonesia and continue : public void fillCodapayDataForIndonesiaAndContinue()"}
+{"logLevel":"debug","message":"\tClick Contact Us on Footer : public void contactUs()"}
+{"logLevel":"debug","message":"\tGo to Mailbox : public void goMailbox()"}
+{"logLevel":"debug","message":"\tFill credit card data with {} {} {} and confirm payment : public void fillCreditCardDataAndConfirmPayment(String cardNumber, String expiryDate, String cvc)"}
+{"logLevel":"debug","message":"\tCheck alias update success message with text {} : public void checkSuccessfulText(String successText)"}
+{"logLevel":"debug","message":"\tClick watch live and expect for {} : public void doNotWatchChannel(String message)"}
+{"logLevel":"debug","message":"\tLogin with previous password and expect for {} : public void loginWithPreviousPassword(String errorMessage)"}
+{"logLevel":"debug","message":"\tCheck success message with {} : public void checkSuccessMessage(String expectedMessage)"}
+{"logLevel":"debug","message":"\tRedeem Voucher : public void redeemVoucher()"}
+{"logLevel":"debug","message":"\tConfirm the start date of new package {} : public void clickConfirm(String offer)"}
+{"logLevel":"debug","message":"\tLogout : public void logout()"}
+{"logLevel":"debug","message":"\tVerify mobile number : public void verifyMobileNumber()"}
+{"logLevel":"debug","message":"\tCheck status and support type : public void checkStatusAndSupportType()"}
+{"logLevel":"debug","message":"\tSend the created new case {} {} {} {}  : public void newCaseForPartnerUser(String expectedMessage, String firstName, String lastName, String email)"}
+{"logLevel":"debug","message":"\tLogin with generated phone number : public void loginWithPhoneNumber()"}
+{"logLevel":"debug","message":"\tClick {} login : public void clickPartnerLogin(String partnerName)"}
+{"logLevel":"debug","message":"\tSimulate Globe Payment with phone number {} and pin code {} : public void simulateGlobe(String phoneNumber, String pin)"}
+{"logLevel":"debug","message":"\tFirst check characters rule and send new text {} {}  : public void sendNewTextAndCheckCharactersRule(String length, String userName1)"}
+{"logLevel":"debug","message":"\tCheck no available subscription packages {} : public void checkNoAvailablePackages(String expectedMessage)"}
+{"logLevel":"debug","message":"\tVoucher code and subscription should not exist in user menu : public void voucherAndSubscribeButtonCheck()"}
+{"logLevel":"debug","message":"\tdeneme senaryosu : public void createAccountWithEmail()"}
+{"logLevel":"debug","message":"\tClick watch now and watch channel for {} seconds : public void watchChannel(int seconds)"}
+{"logLevel":"debug","message":"\tFill Truemoney CC data with {} {} {} {} and confirm payment : public void fillCreditCardDataAndConfirmPayment(String cardNumber, String expiryDate, String cvc, String bankName)"}
+{"logLevel":"debug","message":"\tOpen email verification link and expect for {} : public void openEmailVerificationLink(String expectedMessage)"}
+{"logLevel":"debug","message":"\tFill the contact us and send {} : public void fillContactUsAndSend(String userName)"}
+{"logLevel":"debug","message":"\tLogin with previously created user subscribed with {} package : public void loginWithCreatedUser(String offerType)"}
+{"logLevel":"debug","message":"\tGo to apac {} website : public void launchTheApplication(String countryCode)"}
+{"logLevel":"debug","message":"\tFill Sky form with {} {} : public void fillSkyForm(String userName, String password)"}
+{"logLevel":"debug","message":"\tClick footer subscribe button : public void clickFooterSubscribe()"}
+{"logLevel":"debug","message":"\tClick resend verification code : public void clickResendVerification()"}
+{"logLevel":"debug","message":"\tAccept terms and conditions then click pay now : public void acceptTermsAndConditions()"}
+{"logLevel":"debug","message":"\tSimulate Indomaret payment : public void simulateIndomaret()"}
+{"logLevel":"debug","message":"\tCancel subscription and expect {} text : public void cancelSubscription(String message)"}
+{"logLevel":"debug","message":"\tType sms verification code for forgotten password : public void typeSmsVerificationCode()"}
+Starting ChromeDriver 121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539}) on port 6718
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 30, 2024 3:02:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'deneme senaryosu' using 'class com.web.base.pagesteps.BaseSteps.createAccountWithEmail"}
+java.io.FileNotFoundException: reports/excel/WebAutomationReport-30-01-2024.xlsx (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:118)
+	at com.web.base.utils.reporting.ExcelUtil.createReportSheet(ExcelUtil.java:60)
+	at com.web.base.utils.driver.Driver.deleteCookies(Driver.java:79)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30)
+	at com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:90)
+	at com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:78)
+	at com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:35)
+	at com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:55)
+	at com.thoughtworks.gauge.processor.ScenarioExecutionEndingProcessor.process(ScenarioExecutionEndingProcessor.java:25)
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$finishScenarioExecution$9(RunnerServiceHandler.java:200)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
